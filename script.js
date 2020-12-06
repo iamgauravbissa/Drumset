@@ -1,7 +1,9 @@
 window.addEventListener('keydown',function(e){
     if(e.keyCode==65){
+       document.getElementById('65').classList.add("playing");
         var x = document.getElementById('65');
         x.play();
+        
      }
      else if(e.keyCode==66){
         var x = document.getElementById('66');
